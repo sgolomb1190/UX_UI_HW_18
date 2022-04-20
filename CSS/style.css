@@ -1,0 +1,109 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #F4E28D;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    margin: 0% 0% 10% 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 0px 10px 10px 10px;
+    margin: 20px;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Noto-sans', sans-serif;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    align-content: flex-end;
+}
+
+.work, .about {
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.my_work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Noto-sans', sans-serif;
+    text-transform: uppercase;
+    color: #232932;
+    margin: 0px 80px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding: 10px 0px;
+    margin: 80px;
+    width: 80%;
+    align-content: center;
+    grid-area: "img" "content";
+}
+
+h2 {
+    font-family: 'Noto-sans', sans-serif;
+    text-transform: uppercase;
+    color: #232932;
+}
+
+p {
+    font-family: 'Sanchez', serif;
+}
+
+button {
+    font-family: 'Noto-sans', sans-serif;
+    color: white;
+    background-color: #005D6C;
+    border: none;
+    padding: 15px;
+}
+
+.project_link {
+    display: grid;
+    background-color: white;
+    width: 100%;
+    padding: 10%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    background-color: hsl(331, 19%, 45%);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+footer, .contact {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
