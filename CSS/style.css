@@ -1,17 +1,19 @@
-.container {
+#container {
     width: 100%;
     margin: 0 auto;
 }
 
 body {
     background-color: #F4E28D;
+    margin: 0%;
+    width: 100%;
 }
 
 header {
     display: flex;
     background-color: white;
     width: 100%;
-    margin: 0% 0% 10% 0%;
+    margin: 0%;
 }
 
 nav {
@@ -19,8 +21,7 @@ nav {
     justify-content: space-between;
     background-color: white;
     align-items: center;
-    padding: 0px 10px 10px 10px;
-    margin: 20px;
+    margin: 0px;
     width: 100%;
 }
 
@@ -41,6 +42,31 @@ nav a {
     padding: 10px;
 }
 
+.hero_section .img {
+    display: flex;
+    max-height: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+#hero {
+    background-image: url("/images/Web\ banner_3-01.png");
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#name {
+    padding: 80px 0px;
+    min-height: 100%;
+}
+
 h1 {
     font-family: 'Noto-sans', sans-serif;
     text-transform: uppercase;
@@ -54,21 +80,23 @@ p2 {
     font-size: 15pt;
     display: grid;
     width: 80%;
-    padding: 40px 0px 40px 0px;
-    margin: 0px 0px 0px 80px;
+    padding: 0px;
+    margin: 15px 80px;
+}
+
+h2 {
+    font-family: 'Noto-sans', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    color: #232932;
+    padding: 0px 80px;
+    margin: 0px;
 }
 
 .my_work {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-h2 {
-    font-family: 'Noto-sans', sans-serif;
-    text-transform: uppercase;
-    color: #232932;
-    margin: 0px 80px;
 }
 
 .card {
@@ -120,6 +148,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 5%;
+    margin: 0%;
     height: 40px;
     width: 100%;
     align-items: center;
