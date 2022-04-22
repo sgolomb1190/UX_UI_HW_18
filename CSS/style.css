@@ -41,13 +41,30 @@ nav a {
     padding: 10px;
 }
 
+h1 {
+    font-family: 'Noto-sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #232932;
+    margin: 0px 0px 0px 80px;
+}
+
+p2 {
+    font-family: 'Sanchez', serif;
+    font-size: 15pt;
+    display: grid;
+    width: 80%;
+    padding: 40px 0px 40px 0px;
+    margin: 0px 0px 0px 80px;
+}
+
 .my_work {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-h1 {
+h2 {
     font-family: 'Noto-sans', sans-serif;
     text-transform: uppercase;
     color: #232932;
@@ -65,7 +82,7 @@ h1 {
     grid-area: "img" "content";
 }
 
-h2 {
+h3 {
     font-family: 'Noto-sans', sans-serif;
     text-transform: uppercase;
     color: #232932;
@@ -88,6 +105,15 @@ button {
     background-color: white;
     width: 100%;
     padding: 10%;
+}
+
+.project_link .projects {
+    display: grid;
+    width: 25%;
+    background-color: hsl(331, 19%, 45%);
+    padding: 30px;
+    height: 30px;
+    align-content: center;
 }
 
 footer {
